@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/hashtable.h
+
+/home/lotuswhl/project/QtPro/stlimpl/src/hashtable.cpp
+hashtable.h
+/home/lotuswhl/project/QtPro/stlimpl/src/hashtable.h
+malloc.h
+-
+memory.h
+-
+
