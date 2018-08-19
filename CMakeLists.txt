@@ -14,11 +14,11 @@ file(GLOB SOURCES "src/*.cpp" "test/*.cpp")
 
 #find_package(Threads REQUIRED)
 
-add_library(hash_table SHARED "src/hashtable.cpp")
+#add_library(hash_table SHARED "src/hashtable.cpp")
 
 add_executable(main_test "test/main_test.cpp")
 
-target_link_libraries(main_test gtest pthread hash_table)
+target_link_libraries(main_test gtest pthread )
 
 
 

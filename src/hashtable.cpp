@@ -42,7 +42,8 @@ bool hash_table::insert(int n){
 
 void hash_table::insert(int *beg,int *end){
     for(;beg!= end;++beg){
-        this->insert(*beg);
+        if(this->insert(*beg))
+            ++this->m_nNodeSize;
     }
 }
 
